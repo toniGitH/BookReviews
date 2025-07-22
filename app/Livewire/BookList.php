@@ -14,7 +14,7 @@ class BookList extends Component
         $book->delete();
     }
 
-    #[Title('Lista de libros')]
+    #[Title('Home - Lista de libros')]
     public function render()
     {
         return view('livewire.book-list', [

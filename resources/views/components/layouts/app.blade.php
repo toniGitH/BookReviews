@@ -10,16 +10,16 @@
     <body>
       <nav>
         <div>
-          <h1>My Book Reviews</h1>
+          <h1>Mis Reviews de libros</h1>
           <a 
             @class(['active' => request()->is('/')]) 
             href="/">
-            Book List
+            Lista de libros
           </a>
           <a 
             @class(['active' => request()->is('create')]) 
             href="/create">
-            Add a Book
+            Añadir libro
           </a>
         </div>
       </nav>
