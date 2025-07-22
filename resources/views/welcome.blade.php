@@ -10,7 +10,11 @@
     </head>
     <body>
         <main>
+
             <h2>Welcome to the Livewire Book app</h2>
+
+            <livewire:book-list>
+                
         </main>
     </body>
 </html>
