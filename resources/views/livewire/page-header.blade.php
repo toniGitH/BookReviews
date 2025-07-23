@@ -1,7 +1,7 @@
 <header class="flex justify-between">
     <div>
         <h2>¡Hola, {{ $name }}!</h2>
-        <p>Esta es la lista de tus reviews de libros</p>
+        <p>{{ $subtitle }}</p>
     </div>
     <form>
         <span class="mr-2">Tu nombre:</span>
