@@ -1,7 +1,7 @@
 <div>
     <header class="flex justify-between">
         <div>
-            <p>Bienvenido al blog</p>
+            <h3>Bienvenido al blog</h3>
         </div>
     </header>
 </div>

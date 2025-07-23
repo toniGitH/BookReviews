@@ -1,3 +1,7 @@
 <div class="create">
-    <h3>Crear nuevo libro</h3>
+    <header class="flex justify-between">
+        <div>
+            <h3>Crear nuevo libro</h3>
+        </div>
+    </header>
 </div>
