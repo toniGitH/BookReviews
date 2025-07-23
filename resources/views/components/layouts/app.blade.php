@@ -21,6 +21,11 @@
             href="/create">
             Añadir libro
           </a>
+          <a 
+            @class(['active' => request()->is('blog')]) 
+            href="/blog">
+            Blog
+          </a>
         </div>
       </nav>
       <main>
