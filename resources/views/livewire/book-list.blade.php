@@ -1,7 +1,7 @@
 <div> 
 
-    <livewire:page-header /> 
-     
+    <livewire:page-header subtitle="Esta es la lista de tus reviews de libros"/> 
+
     <ul class="list">
         @foreach($books as $book)
             <li wire:key="book-{{ $book->id }}">
