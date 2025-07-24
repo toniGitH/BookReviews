@@ -4,4 +4,20 @@
             <h3>Crear nuevo libro</h3>
         </div>
     </header>
+
+    <form wire:submit='save'>
+        <div class="field">
+            <label>Book Title:</label>
+            <input type="text" wire:model="title">
+        </div>
+        <div class="field">
+            <label>Book Author:</label>
+            <input type="text" wire:model="author">
+        </div>
+        <div class="field">
+            <label>Book Rating:</label>
+            <input type="number" wire:model="rating">
+        </div>
+        <button>Añadir Libro</button>
+    </form>
 </div>
