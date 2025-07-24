@@ -11,17 +11,20 @@
       <nav>
         <div>
           <h1>Mis Reviews de libros</h1>
-          <a 
+          <a
+            wire:navigate
             @class(['active' => request()->is('/')]) 
             href="/">
             Lista de libros
           </a>
-          <a 
+          <a
+            wire:navigate 
             @class(['active' => request()->is('create')]) 
             href="/create">
             Añadir libro
           </a>
-          <a 
+          <a
+            wire:navigate
             @class(['active' => request()->is('blog')]) 
             href="/blog">
             Blog

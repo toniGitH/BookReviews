@@ -12,16 +12,19 @@
         <div>
           <h1>Blog</h1>
           <a 
+            wire:navigate
             @class(['active' => request()->is('/')]) 
             href="/">
             Lista de libros
           </a>
-          <a 
+          <a            
+            wire:navigate
             @class(['active' => request()->is('create')]) 
             href="/create">
             Añadir libro
           </a>
           <a 
+            wire:navigate
             @class(['active' => request()->is('blog')]) 
             href="/blog">
             Blog
