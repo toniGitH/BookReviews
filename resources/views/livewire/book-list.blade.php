@@ -1,6 +1,14 @@
 <div> 
 
-    <livewire:page-header subtitle="Esta es la lista de tus reviews de libros"/> 
+    <livewire:page-header subtitle="Esta es la lista de tus reviews de libros"/>
+
+    {{-- search --}}
+    <input
+        type="text"
+        wire:model.live.debounce.300ms='term'
+        placeholder="Buscar libro por título ..."
+        class="search"
+        >
 
     <ul class="list">
         @foreach($books as $book)
